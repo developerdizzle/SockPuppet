@@ -1,6 +1,6 @@
 #SockPuppet
 
-Use websockets to link a c# object to a javascript object using HTML5 WebSockets, and call javascript object methods from your c# strongly.
+Link a .NET object to a Javascript object using HTML5 WebSockets, and call Javascript object methods from your .NET code.
 
 On your web page:
 
