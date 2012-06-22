@@ -19,7 +19,7 @@ In your server-side code:
     //call any method on your client-side context object!
     dynamicPuppet.document.alert("I'm in your browser calling your methods!");
     
-Also supports interfaces (that do not have to be explicitely implemented!):
+Also supports interfaces (that do not have to be explicitly implemented!):
 
     //create a strongly typed sockpuppet
     IClientWindow windowPuppet = SockPuppet.Puppet.New<IClientWindow>(r => socket.Send(r));
