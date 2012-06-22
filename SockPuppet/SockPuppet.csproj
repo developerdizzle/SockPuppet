@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ImpromptuInterface">
-      <HintPath>..\..\..\..\..\Downloads\ImpromptuInterface.5.6.2-MVVM.3.6.2-FS1.0.2\ImpromptuInterface.5.6.2-MVVM.3.6.2-FS1.0.2\net40\ImpromptuInterface.dll</HintPath>
+    <Reference Include="ImpromptuInterface, Version=5.6.7.12678, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ImpromptuInterface.5.6.7\lib\net40\ImpromptuInterface.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -48,6 +49,9 @@
   <ItemGroup>
     <Compile Include="Puppet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

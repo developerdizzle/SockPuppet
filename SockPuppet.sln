@@ -5,25 +5,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockPuppet", "SockPuppet\So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockPuppet.Demo", "SockPuppet.Demo\SockPuppet.Demo.csproj", "{A3A823C5-60BD-412E-88DE-AA13E1459915}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SockPuppet.Web", "..\..\..\..\..\..\inetpub\wwwroot\Tripod\Websites\SockPuppet.Web\", "{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SockPuppet.Web", "..\..\Visual Studio 2010\Projects\SockPuppet\SockPuppet.Web\", "{D3FCC54C-FE3F-4831-93D8-350134B5DF88}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/SockPuppet.Web"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\Tripod\Websites\SockPuppet.Web\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Visual Studio 2010\Projects\SockPuppet\SockPuppet.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SockPuppet.Web\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/SockPuppet.Web"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\Tripod\Websites\SockPuppet.Web\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Visual Studio 2010\Projects\SockPuppet\SockPuppet.Web\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SockPuppet.Web\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "18887"
-		DefaultWebSiteLanguage = "Visual C#"
+		VWDPort = "1673"
 	EndProjectSection
 EndProject
 Global
@@ -56,16 +55,16 @@ Global
 		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|Mixed Platforms.Build.0 = Release|x86
 		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|x86.ActiveCfg = Release|x86
 		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|x86.Build.0 = Release|x86
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
-		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|x86.ActiveCfg = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D3FCC54C-FE3F-4831-93D8-350134B5DF88}.Release|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
