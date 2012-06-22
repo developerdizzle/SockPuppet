@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="sockpuppet.client.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        //create a new WebSocket object as usual
+        var server = new WebSocket("ws://localhost:8181");
+
+        //set out context to the window object - all sockpuppet method calls will be performed on this object
+        server.puppetContext(window);
+
+        //non sockpuppet calls are passed through to the standard onmessage function
+        server.onmessage = function (event) {
+            console.log('received data through standard server.onmessage: ' + event.data);
+        };
+
+        server.onopen = function () {
+            console.log('socket server opened');
+        };
+
+        server.onclose = function () {
+            console.log('socket server closed');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockPuppet", "SockPuppet\SockPuppet.csproj", "{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockPuppet.Demo", "SockPuppet.Demo\SockPuppet.Demo.csproj", "{A3A823C5-60BD-412E-88DE-AA13E1459915}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SockPuppet.Web", "..\..\..\..\..\..\inetpub\wwwroot\Tripod\Websites\SockPuppet.Web\", "{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/SockPuppet.Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\Tripod\Websites\SockPuppet.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SockPuppet.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SockPuppet.Web"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\Tripod\Websites\SockPuppet.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SockPuppet.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18887"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FFAC15F2-504E-445B-9E6B-EA69443DB1DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Debug|x86.ActiveCfg = Debug|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Debug|x86.Build.0 = Debug|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|Any CPU.ActiveCfg = Release|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|x86.ActiveCfg = Release|x86
+		{A3A823C5-60BD-412E-88DE-AA13E1459915}.Release|x86.Build.0 = Release|x86
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EF9E78B4-E165-471A-A82A-0ABFDE1490FC}.Release|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
