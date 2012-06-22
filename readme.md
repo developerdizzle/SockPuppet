@@ -1,5 +1,22 @@
 #SockPuppet
 
-Link a c# object to a javascript object using HTML5 WebSockets, and call javascript object methods from your c# strongly.
+Use websockets to link a c# object to a javascript object using HTML5 WebSockets, and call javascript object methods from your c# strongly.
 
-**Coming Soon**
+On your web page:
+
+    //create a new WebSocket object as usual
+    var server = new WebSocket("ws://localhost:8181");
+
+    //set our context to the window object - all sockpuppet method calls will be performed on this object
+    server.puppetContext(window);
+
+
+In your server-side code:
+
+    //create a dynamic Sockpuppet, passing a Func<string> used to send a message through your Websocket
+    dynamic dynamicPuppet = SockPuppet.Puppet.New(r => socket.Send(r));
+
+    //call any method on your client-side context object!
+    dynamicPuppet.document.alert("I'm in your browser calling your methods!");
+    
+The demo uses Fleck as a Websocket server, but you are free to use whichever you prefer.
